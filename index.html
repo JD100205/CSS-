@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Interno</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="light-mode">
+  <div class="dashboard">
+    <header class="header">
+        <div class="logo-container">
+          <i class="fas fa-cogs logo-icon"></i>
+          <a href="https://www.flaticon.es/icono-gratis/erp_5129557" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5129/5129557.png" alt="ERP Icon" class="logo-img">
+          </a>
+        </div>
+        <h1>Panel de Control</h1>
+        <span class="user">Usuario: Juan Gallegos</span>
+      </header>  
+
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i> Inicio</li>
+          <li><i class="fas fa-user"></i> Perfil</li>
+          <li><i class="fas fa-chart-line"></i> Reportes</li>
+          <li><i class="fas fa-cog"></i> Configuración</li>
+          <li><i class="fas fa-sign-out-alt"></i> Salir</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="resumen">
+        <div class="card" > Ventas</div>
+        <div class="card"> Usuarios</div>
+        <div class="card"> Proyectos</div>
+      </section>
+      <section class="contenido-dinamico">
+        <table>
+          <thead>
+            <tr><th>ID</th><th>Nombre</th><th>Estado</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>001</td><td>ERP Nexus</td><td>Activo</td></tr>
+            <tr><td>002</td><td>CoreBiz ERP</td><td>En espera</td></tr>
+            <tr><td>003</td><td>InnoManage</td><td>Completado</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <aside class="right-panel">
+      <div class="notificaciones">
+        <h3> Notificaciones</h3>
+        <p>Nuevo mensaje recibido</p>
+        <p>Actualización disponible</p>
+      </div>
+      <div class="calendario">
+        <h3> Calendario</h3>
+        <p>Hoy: 9 Abril 2025</p>
+      </div>
+    </aside>
+
+    <footer class="footer">
+      © 2025 - Todos los derechos reservados | Contacto: admin@erp.soporte.pe
+    </footer>
+  </div>
+</body>
+</html>
